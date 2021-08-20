@@ -46,29 +46,7 @@ class Game {
 
     //Player.getPlayersInfo();
 
-   /*  if (allPlayers !== undefined) {
-      image(track, 0, -height * 5, width, height * 6);
-
-      //index of the array
-      var index = 0;
-      for (var plr in allPlayers) {
-        //use data form the database to display the cars in x and y direction
-        var x = allPlayers[plr].positionX;
-        var y = height - allPlayers[plr].positionY;
-
-        cars[index].position.x = x;
-        cars[index].position.y = y;
-
-        //add 1 to the index for every loop
-        index = index + 1;
-      }
-
-      // handling keyboard events
-      if (keyIsDown(UP_ARROW)) {
-        player.positionY += 10;
-        player.update();
-      }
- */
+   
       drawSprites();
     }
   }
